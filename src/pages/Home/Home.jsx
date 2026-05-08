@@ -1,5 +1,7 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
+import visionImg from '../../assets/images/ghulam_mubashir.jpeg';
+import missionImg from '../../assets/images/zulfiqar_hameed.jpeg';
 import './Home.css';
 
 const Home = () => {
@@ -13,7 +15,7 @@ const Home = () => {
       <section className="vision-mission container">
         <div className="vm-block glass">
           <div className="vm-image">
-            <img src="/src/assets/images/ghulam_mubashir.jpeg" alt="Vision" />
+            <img src={visionImg} alt="Vision" />
           </div>
           <div className="vm-text">
             <h2 className="gradient-text">Our Vision</h2>
@@ -27,7 +29,7 @@ const Home = () => {
             <p>Our mission is to uphold the rule of law, maintain public order, and combat crime with integrity, professionalism, and respect for human rights.</p>
           </div>
           <div className="vm-image">
-            <img src="/src/assets/images/zulfiqar_hameed.jpeg" alt="Mission" />
+            <img src={missionImg} alt="Mission" />
           </div>
         </div>
       </section>
