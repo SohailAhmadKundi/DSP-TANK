@@ -1,0 +1,12 @@
+/* Main App container styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Page transitions could be added here */

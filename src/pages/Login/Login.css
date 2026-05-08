@@ -1,0 +1,37 @@
+.login-page {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 3rem;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.login-card .form-group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
